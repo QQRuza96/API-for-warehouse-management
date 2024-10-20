@@ -6,5 +6,5 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - .:/app  # Сохраняем изменения в коде в контейнере
-      - ./sql_app.db:/app/sql_app.db  # Сохраняем базу данных на хосте
+      - .:/app
+      - ./sql_app.db:/app/sql_app.db
